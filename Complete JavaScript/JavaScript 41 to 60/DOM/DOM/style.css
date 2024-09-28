@@ -1,0 +1,42 @@
+.java_list {
+    margin-bottom: 10px;
+    font-size: 20px;
+    /* margin:20px auto auto 200px; */
+}
+
+.editbtn {
+    margin-left: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.deletebtn {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 10px;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.parent {
+    margin: 20px auto auto 230px;
+}
+
+#todo_list {
+    /* text-align: center; */
+    /* margin:20px auto auto 10px; */
+    padding-left: 270px;
+}
+
+#todo_input {
+    padding-left: 10px;
+}

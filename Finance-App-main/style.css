@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 15px;
+    background-color: greenyellow;
+    width: 100vw;
+    height: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.heading h1 {
+    background-color: gray;
+}
+
+#input-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input2-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#input {
+    width: 240px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding-left: 20px;
+    /* position: relative;
+    left: 559px;
+    top: 30px; */
+}
+
+#input2 {
+    width: 240px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 6px;
+    padding-left: 20px;
+    /* position: relative;
+    left: 559px;
+    top: 30px; */
+}
+
+::placeholder {
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.buttons button {
+    width: 140px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+
+.divs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.div2-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.div-1 {
+    width: 380px;
+    height: 140px;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+.div-2 {
+    width: 380px;
+    height: 140px;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+.div-3 {
+    width: 380px;
+    height: 140px;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+.div-4 {
+    width: 380px;
+    height: 140px;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 8px;
+}
+
+.div-1 h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#line {
+    width: 356px;
+    height: 1px;
+    background-color: greenyellow;
+    border: none;
+    margin-top: 05px;
+    margin-left: 12px;
+}
+
+.money {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-top: 30px !important; */
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+}
+
+#total {
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    /* padding-top: 30px !important; */
+    padding-left: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.div-2 h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-3 h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div-4 h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}

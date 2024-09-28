@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="heading">
+        <h1>Dice Game</h1>
+    </div>
+
+    <div id="heading-2">
+        <h2>Lets Play</h2>
+    </div>
+    <div class="container">
+        <div class="one " onclick="click_btn(1)" id="one_1" class="same"><span class="span1"><b>.</b></span></div>
+        <div class="two " onclick="click_btn(2)" id="two_2" class="same"><span class="span2"><b>..</b></span></div>
+        <div class="three " onclick="click_btn(3)" id="three_3" class="same"><span class="span3"><b>...</b></span></div>
+        <div class="four" onclick="click_btn(4)" id="four_4" class="same"> <span class="span4"> <b>.. <span
+                        class="span4-2">..</span></b></span>
+        </div>
+        <div class="five" onclick="click_btn(5)" id="five_5" class="same"> <span class="span5-1"><b>.</b></span>
+            <div class="span5-2"><span><b>..</b></span></div>
+            <div class="span5-3"><span><b>..</b></span></div>
+        </div>
+        <div class="six" onclick="click_btn(6)" id="six_6" class="same"> <span class="span6-1"> <b>.. <span
+                        class="span6-2">..</span>
+                    <span class="span6-3">..</span></b></span> </div>
+    </div>
+    <div class="parent">
+        <div class="circle-1" id="winnerid">
+            <span><b>You Win!</b></span>
+        </div>
+        <div class="circle-2" id="looserid">
+            <span><b>You loss</b></span>
+        </div>
+    </div>
+    <div class="counter-divs">
+        <div class="total"> <b>Total:</b> <span id="totalcounter">10</span></div>
+        <div class="winner"> <b>Winner:</b><span id="winnercounter">0</span></div>
+        <div class="looser"> <b>looser:</b> <span id="loosercounter">0</span></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

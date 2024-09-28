@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: orange;
+    font-family: fantasy;
+
+}
+
+.heading {
+    width: 100vw;
+    height: 60px;
+    background-color: blue;
+    /* margin-top: 10px; */
+    position: sticky;
+    top: 0px;
+}
+
+.container {
+    width: 98.5vw;
+    height: 150px;
+    background-color: rgb(230, 220, 220);
+    margin: auto auto;
+    margin-top: 5px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* gap: 30px; */
+
+
+}
+
+.div-1 {
+    width: 180px;
+    height: 45px;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.div-2 {
+    width: 180px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.div-3 {
+    width: 180px;
+    height: 45px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    margin: auto auto;
+    margin-top: 10px;
+
+
+}
+
+th {
+    border: 1px solid gray;
+    padding: 12px;
+    width: 198px;
+}
+
+/* th #name_html {
+    width: 30px !important;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+th #fatherName_html {
+    width: 30px;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+th #Rollno_html {
+    width: 30px;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+th #Age_html {
+    width: 30px;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+th #randomGrades {
+    width: 30px;
+    border: 1px solid gray;
+    padding: 12px;
+}
+
+th #Attendence_html {
+    width: 40px;
+    border: 1px solid gray;
+    padding: 12px;
+} */
+
+
+
+/* td {
+    border: 1px solid gray;
+    padding: 12px;
+    width: 190px;
+} */
+
+.name {
+    background-color: black;
+    color: white;
+}
+
+.fatherName {
+    background-color: blue;
+    color: white;
+}
+
+.Rollno {
+    background-color: black;
+    color: white;
+}
+
+.Age {
+    background-color: blue;
+    color: white;
+}
+
+.designClass {
+    background-color: black;
+    color: white;
+}
+
+.Attendence {
+    background-color: gray;
+    color: white;
+}
+
+
+
+#presentType {
+    color: green;
+    font-weight: bold;
+}
+
+#absentType {
+    color: red;
+    font-weight: bold;
+}
+
+#leaveType {
+    color: blue;
+    font-weight: bold;
+}
+
+#typeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#pre_btn {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#abs_btn {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+#lea_btn {
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: 1px solid blue;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}

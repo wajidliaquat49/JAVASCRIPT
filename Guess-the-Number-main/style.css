@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 50px;
+
+}
+
+#btn {
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+    outline: none;
+    border: 2px solid blue;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#input {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 230px;
+    height: 30px;
+    background-color: green;
+    outline: none;
+    border: 1px solid green;
+    color: white;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+::placeholder {
+    color: white;
+}
+
+
+
+fieldset {
+    width: 600px;
+    height: 400px;
+    margin: 50px auto 50px auto;
+
+}
+
+legend {
+    color: rgb(11, 125, 218);
+    font-size: 25px;
+}
+
+
+
+h3 {
+    margin-top: 150px;
+    margin-left: 200px;
+    color: blue;
+
+}

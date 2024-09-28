@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#heading {
+    width: 300px;
+    height: 50px;
+    background-color: blue;
+    margin: auto auto;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: 1px solid blue;
+}
+
+h1 {
+    padding: 5px;
+    padding-left: 70px;
+
+
+}
+
+#heading-2 {
+    width: 500px;
+    height: 40px;
+    background-color: yellowgreen;
+    margin: auto auto;
+    margin-top: 30px;
+    border-radius: 6px;
+    border: 1px solid yellowgreen;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 7px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.one {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-size: 70px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.span1 {
+    position: absolute;
+    left: 16px;
+    bottom: 3px;
+}
+
+.two {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.span2 {
+    position: absolute;
+    left: 13px;
+    bottom: 10px;
+}
+
+.three {
+    width: 50px;
+    height: 50px;
+    background-color: violet;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid violet;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.span3 {
+    position: absolute;
+    left: 6px;
+    bottom: 10px;
+}
+
+.four {
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid orange;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.span4 {
+    position: absolute;
+    left: 12.5px;
+    bottom: 15px;
+}
+
+.span4-2 {
+    position: absolute;
+    left: 0px;
+    top: 11px;
+    color: white;
+}
+
+.six {
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid purple;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.span6-1 {
+    position: absolute;
+    left: 12.5px;
+    bottom: 19px;
+}
+
+.span6-2 {
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    color: white;
+}
+
+.span6-3 {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    color: white;
+}
+
+.five {
+    width: 50px;
+    height: 50px;
+    background-color: sienna;
+    color: white;
+    font-size: 50px;
+    position: relative;
+    border-radius: 10px;
+    border: 1px solid sienna;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.span5-1 {
+    position: absolute;
+    left: 18px;
+    bottom: 21px;
+    color: white;
+}
+
+.span5-2 {
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+    color: white;
+}
+
+.span5-3 {
+    position: absolute;
+    left: 12px;
+    bottom: 1px;
+    color: white;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.circle-1 {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    margin-top: 20px;
+    border-radius: 150px;
+    position: relative;
+
+}
+
+.circle-1 span {
+    position: absolute;
+    top: 60px;
+    left: 38px;
+    font-size: 20px;
+}
+
+.circle-2 span {
+    position: absolute;
+    top: 60px;
+    left: 42px;
+    font-size: 20px;
+}
+
+.circle-2 {
+    width: 150px;
+    height: 150px;
+    background-color: violet;
+    margin-top: 20px;
+    border-radius: 150px;
+    position: relative;
+
+}
+
+
+.counter-divs {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.total {
+    width: 160px;
+    height: 30px;
+    background-color: yellowgreen;
+    /* margin: auto auto; */
+    /* margin-top: 30px; */
+    border-radius: 6px;
+    border: 1px solid yellowgreen;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.winner {
+    width: 160px;
+    height: 30px;
+    background-color: yellowgreen;
+    /* margin: auto auto; */
+    /* margin-top: 30px; */
+    border-radius: 6px;
+    border: 1px solid yellowgreen;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.looser {
+    width: 160px;
+    height: 30px;
+    background-color: yellowgreen;
+    /* margin: auto auto; */
+    /* margin-top: 30px; */
+    border-radius: 6px;
+    border: 1px solid yellowgreen;
+    margin-left: 20px;
+    text-align: center;
+    padding-top: 10px;
+
+}

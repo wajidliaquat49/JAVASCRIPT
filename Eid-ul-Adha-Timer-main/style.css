@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 98.5;
+    height: 300vh;
+    background-image: url(65a7f845ad584c331977e839d4cddd69.jpg);
+
+
+
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+
+#h-div {
+    position: sticky;
+    top: 0px;
+    background-color: red;
+    height: 65px;
+}
+
+#heading {
+    text-align: center;
+    /* padding-top: 15px; */
+    color: white;
+    text-shadow: 2px 2px black;
+    font-size: 43px;
+    padding-top: 5px;
+}
+
+#milli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#seconds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minutes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#days {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#weeks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#months {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#years {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.milliseconds {
+    width: 550px;
+    height: 185px;
+    background-color: goldenrod;
+    border-radius: 14px 14px;
+    border: 1px solid goldenrod;
+
+}
+
+.milliseconds h3 {
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+}
+
+.milliseconds .circle {
+    width: 280px;
+    height: 45px;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+.millidivs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+/* Seconds */
+
+.seconds {
+    width: 550px;
+    height: 185px;
+    background-color: palegreen;
+    border-radius: 14px 14px;
+    border: 1px solid palegreen;
+
+}
+
+.seconds h3 {
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+}
+
+.seconds .circle {
+    width: 280px;
+    height: 45px;
+    background-color: black;
+    border-radius: 8px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.seconddivs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+/* Minutes */
+
+
+.minutes {
+    width: 550px;
+    height: 185px;
+    background-color: pink;
+    border-radius: 14px 14px;
+    border: 1px solid pink;
+
+}
+
+.minutes h3 {
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+}
+
+.minutes .circle {
+    width: 135px;
+    height: 135px;
+    background-color: black;
+    border-radius: 67.5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+
+/* Hours  */
+
+.hours {
+    width: 550px;
+    height: 185px;
+    background-color: rgb(98, 156, 243);
+    border-radius: 14px 14px;
+    border: 1px solid rgb(98, 156, 243);
+
+}
+
+.hours h3 {
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+}
+
+.hours .circle {
+    width: 135px;
+    height: 135px;
+    background-color: black;
+    border-radius: 67.5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Days */
+
+.days {
+    width: 550px;
+    height: 185px;
+    background-color: rgb(180, 241, 87);
+    border-radius: 14px 14px;
+    border: 1px solid rgb(180, 241, 87);
+
+}
+
+.days h3 {
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+}
+
+.days .circle {
+    width: 135px;
+    height: 135px;
+    background-color: black;
+    border-radius: 67.5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Weeks */
+
+.weeks {
+    width: 550px;
+    height: 185px;
+    background-color: rgb(170, 59, 59);
+    border-radius: 14px 14px;
+    border: 1px solid rgb(170, 59, 59);
+
+}
+
+.weeks h3 {
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+}
+
+.weeks .circle {
+    width: 135px;
+    height: 135px;
+    background-color: black;
+    border-radius: 67.5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Months */
+
+.months {
+    width: 550px;
+    height: 185px;
+    background-color: rgb(230, 167, 73);
+    border-radius: 14px 14px;
+    border: 1px solid rgb(230, 167, 73);
+
+}
+
+.months h3 {
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+}
+
+.months .circle {
+    width: 135px;
+    height: 135px;
+    background-color: black;
+    border-radius: 67.5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Years */
+
+.years {
+    width: 550px;
+    height: 185px;
+    background-color: rgb(101, 211, 178);
+    border-radius: 14px 14px;
+    border: 1px solid rgb(101, 211, 178);
+
+}
+
+.years h3 {
+    text-align: center;
+    color: black;
+    padding-top: 7px;
+}
+
+.years .circle {
+    width: 135px;
+    height: 135px;
+    background-color: black;
+    border-radius: 67.5px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.divs {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

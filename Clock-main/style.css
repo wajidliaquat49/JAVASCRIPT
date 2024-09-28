@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.bg-image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(unnamed.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 45vw;
+    font-size: 60px;
+    padding-top: 10px;
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 100vh;
+
+}
+
+.hours {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 90px;
+    position: relative;
+}
+
+.hours:hover {
+    background-color: rgb(107, 107, 224);
+    transition: all 3s;
+}
+
+.minutes:hover {
+    background-color: rgb(207, 173, 128);
+    transition: all 3s;
+}
+
+.seconds:hover {
+    background-color: rgb(206, 104, 192);
+    transition: all 3s;
+}
+
+#hoursid {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 75px;
+    top: 57px;
+
+}
+
+.text-hours {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 59px;
+    top: 123px;
+}
+
+.text-minutes {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 59px;
+    top: 123px;
+}
+
+.text-seconds {
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 59px;
+    top: 123px;
+}
+
+.minutes {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 90px;
+    position: relative;
+}
+
+#minutesid {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 66px;
+    top: 55px;
+
+}
+
+.seconds {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 90px;
+    position: relative;
+}
+
+#secondsid {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 66px;
+    top: 55px;
+
+}
+
+span {
+    color: white;
+    font-size: 50px;
+}
+
+#dateid {
+    color: black;
+    font-size: 22px;
+    padding-left: 55px;
+
+
+
+}
+
+.date {
+    width: 230px;
+    height: 27px;
+    background-color: gray;
+    position: absolute;
+    bottom: 07px;
+    left: 05px;
+    border-radius: 6px;
+}
+
+.date:hover {
+    background-color: rgb(207, 173, 128);
+    transition: all 2s;
+}

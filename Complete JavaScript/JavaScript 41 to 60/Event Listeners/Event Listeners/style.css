@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
+#helloBtn {
+    margin-left: 47vw;
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.color_div {
+    width: 350px;
+    height: 350px;
+    background-color: blue;
+    margin: auto auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+img {
+    margin: 30px 500px 30px 550px;
+    width: 250px;
+    height: 350px;
+    border-radius: 6px;
+}
